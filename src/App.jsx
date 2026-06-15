@@ -1,16 +1,13 @@
 import './App.css'
-import Titulo from './components/Titulo/Titulo';
-import NavBar from './components/NavBar/NavBar';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import LayoutApp from './Layout/LayoutApp';
+import HomePage from './pages/HomePage';
 
 function App() {
-
-
   return (
     <div>
-      <NavBar />
-      
-      <ItemListContainer saludo="Los mejores mates de Argentina"/>
+      <LayoutApp>
+        <HomePage />
+      </LayoutApp>
     </div>
     )
 }

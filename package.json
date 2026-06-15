@@ -1,8 +1,20 @@
 {
-  "name": "ecommerce-react",
-  "private": true,
+  "name": "clase_practica",
   "version": "0.0.0",
+  "private": true,
+  "description": "server.js basico",
+  "homepage": "https://github.com/lelel2001/ecommerce-Coderhouse#readme",
+  "bugs": {
+    "url": "https://github.com/lelel2001/ecommerce-Coderhouse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelel2001/ecommerce-Coderhouse.git"
+  },
+  "license": "ISC",
+  "author": "lelel",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
